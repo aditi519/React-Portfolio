@@ -23,8 +23,8 @@ const ProjectCardData = [
     imgsrc: pro3,
     title: "Portfolio Website Design ",
     text: "Developed an interactive and responsive portfolio using React, showcasing a collection of projects and personal information. Designed the layout and user interface for optimal visual appeal and functionality, Implemented features to display projects dynamically and ensure seamless navigation. Deployed the portfolio to a live environment, demonstrating proficiency in front-end development, React.js, and responsive web design.",
-    view: "https://github.com/aditi519/Portfolio",
-    source: "https://github.com/aditi519/Portfolio",
+    view: "https://github.com/aditi519/React-Portfolio",
+    source: "https://github.com/aditi519/React-Portfolio",
   },
 ];
 
