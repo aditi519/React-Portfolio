@@ -9,7 +9,11 @@ const Formcontact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("service_2s2x3m8", "template_vyzho55", form.current,"ioRX5kb1YSFO9uYed",
+      .sendForm(
+        "service_2s2x3m8",
+        "template_vyzho55",
+        form.current,
+        "ioRX5kb1YSFO9uYed"
       )
       .then(
         (result) => {
@@ -29,8 +33,15 @@ const Formcontact = () => {
         <label htmlFor="user_email">Email</label>
         <input type="email" id="user_email" name="user_email" />
         <label htmlFor="message">Message</label>
-        <textarea id="message" name="message" rows="6" placeholder="Type your message here" />
-        <button className="btn" type="submit">Submit</button>
+        <textarea
+          id="message"
+          name="message"
+          rows="6"
+          placeholder="Type your message here"
+        />
+        <button className="btn" type="submit">
+          Submit
+        </button>
       </form>
     </div>
   );
